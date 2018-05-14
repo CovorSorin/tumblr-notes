@@ -42,7 +42,7 @@ while (not reached_end):
 
 print('Stats for ' + USERNAME + ':')
 print('Number of pages:', current_page)
-print('Number of posts:', total_posts - total_reblogs, '/', total_posts, '(' + str(total_reblogs) + ' reblogs ignored))')
+print('Number of posts:', total_posts - total_reblogs, '/', total_posts, '(' + str(total_reblogs) + ' reblogs ignored)')
 print('Total notes:', total_notes - total_reblog_notes, '(ignoring', total_reblog_notes, 'reblogs)')
 print('Best post:', max_notes, 'notes')
 print('Average:', round(total_notes / total_posts), 'notes / post')
